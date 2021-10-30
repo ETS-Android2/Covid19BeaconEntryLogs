@@ -1,5 +1,5 @@
 # Covid19BeaconEntryLogs
-> 코로나19 TEXT 기반 챗봇입니다.
+> 새로운 블루투스 기반 전자출입명부 시스템입니다.
 
 한 두 문단으로 프로젝트 소개 글을 작성합니다.
 
@@ -8,24 +8,22 @@
 OS X & 리눅스:
 
 ```sh
-npm install my-crazy-module --save
+git clone "https://github.com/luna1474/Covid19BeaconEntryLogs"
 ```
 
 윈도우:
 
 ```sh
-edit autoexec.bat
+지원 예정
 ```
 
 ## 사용 예제
 
 스크린 샷과 코드 예제를 통해 사용 방법을 자세히 설명합니다.
 
-_더 많은 예제와 사용법은 [Wiki][wiki]를 참고하세요._
-
 ## 개발 환경 설정
 
-모든 개발 의존성 설치 방법과 자동 테스트 슈트 실행 방법을 운영체제 별로 작성합니다.
+의존성 패키지 설치 명령어입니다.
 
 ```sh
 pip install telegram-python
@@ -38,8 +36,10 @@ pip install telegram-python
 
 ## 정보
 
-이름 – [@트위터 주소](https://twitter.com/dbader_org) – 이메일주소@example.com
+유휘준 – peulling@soongsil.ac.kr
 
-XYZ 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할 수 있습니다.
+GPL 3.0 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할 수 있습니다.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+오픈소스기초설계(나) - 김성흠 교수님
+
+[https://canvas.ssu.ac.kr/courses/7760](https://canvas.ssu.ac.kr/courses/7760)

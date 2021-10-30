@@ -1,7 +1,7 @@
 # Covid19BeaconEntryLogs
 > 새로운 블루투스 기반 전자출입명부 시스템입니다.
 
-한 두 문단으로 프로젝트 소개 글을 작성합니다.
+
 
 ## 설치 방법
 
@@ -19,7 +19,7 @@ git clone "https://github.com/luna1474/Covid19BeaconEntryLogs"
 
 ## 사용 예제
 
-스크린 샷과 코드 예제를 통해 사용 방법을 자세히 설명합니다.
+업데이트 예정
 
 ## 개발 환경 설정
 

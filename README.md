@@ -1,38 +1,40 @@
-# Covid19BeaconEntryLogs
+# BBIP
 > 블루투스 비콘 기반 전자출입명부 시스템입니다.
-
 
 
 ## 설치 방법
 
-OS X & 리눅스:
-
+### BBIP_Server
+BBIP_Server install:
 ```sh
-git clone "https://github.com/luna1474/Covid19BeaconEntryLogs"
+docker run -d -p 5050:5050 -v YourComputerFolder:/server --name YourOwnName luna1474/bbip_server
 ```
 
-윈도우:
+**server 폴더 내부에 socket_server.py - telegram_bot 정보를 업데이트하시기 바랍니다.**
 
-```sh
-지원 예정
-```
+### Android Application
+
+Beacon_Transmitter.apk:
+> 가게 단말기 설치용
+
+![image](https://user-images.githubusercontent.com/24191595/144058444-d0c57947-b830-432d-9cff-4d2d1031383c.png)
+
+
+
+
+Beacon_receiver.apk:
+> 손님 단말기 설치용
+
+![image](https://user-images.githubusercontent.com/24191595/144058339-57c7913f-229c-4de7-8e14-36b3c8dc087a.png)
+
 
 ## 사용 예제
 
-업데이트 예정
-
-## 개발 환경 설정
-
-의존성 패키지 설치 명령어입니다.
-
-```sh
-pip install telegram-python
-```
+![BBIP_1](https://user-images.githubusercontent.com/24191595/144059605-6772d58a-cddb-4ed3-8f23-288403936ce0.gif)
 
 ## 업데이트 내역
-
-* 0.0.1
-    * 기초 github page 작성 중
+* 1.0
+    * 초기버전 어플 출시
 
 ## 정보
 

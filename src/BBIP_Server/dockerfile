@@ -1,0 +1,14 @@
+FROM python:3.7.10
+
+RUN mkdir /server
+RUN mkdir /original
+COPY socket_server.py /original
+COPY start.sh /original
+
+RUN pip install --upgrade pip
+RUN pip install python-telegram-bot
+
+EXPOSE 5050
+
+
+CMD ["sh", "/original/start.sh"]

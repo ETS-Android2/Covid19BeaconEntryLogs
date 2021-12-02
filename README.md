@@ -12,6 +12,8 @@ docker run -d -p 5050:5050 -v YourComputerFolder:/server --name YourOwnName luna
 
 **server 폴더 내부에 socket_server.py - telegram_bot 정보를 업데이트하시기 바랍니다.**
 
+참고 사항 - [Telegram Bots](https://core.telegram.org/bots)
+
 ### Android Application
 
 Beacon_Transmitter.apk:
@@ -39,6 +41,8 @@ Beacon_receiver.apk:
 ## 정보
 
 유휘준 – peulling@soongsil.ac.kr
+
+박건우 - tkddlfehd111@soongsil.ac.kr
 
 GPL 3.0 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할 수 있습니다.
 

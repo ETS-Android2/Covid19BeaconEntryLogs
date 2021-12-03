@@ -1,0 +1,2 @@
+BBIP_Server install:
+docker run -d -p 5050:5050 -v YourComputerFolder:/server --name YourOwnName luna1474/bbip_server

@@ -49,3 +49,17 @@ GPL 3.0 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확�
 오픈소스기초설계(나) - 김성흠 교수님
 
 [https://canvas.ssu.ac.kr/courses/7760](https://canvas.ssu.ac.kr/courses/7760)
+
+## Reference
+Bluetooth Beacon
+https://github.com/AltBeacon/android-beacon-library-reference
+
+Docker
+https://docs.docker.com/get-started/overview/
+
+Socket
+https://docs.microsoft.com/ko-kr/dotnet/api/system.net.sockets.socket?view=net-6.0
+
+Telegram api
+https://core.telegram.org/#api-methods
+
